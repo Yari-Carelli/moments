@@ -22,21 +22,21 @@ const NavBar = () => {
               activeClassName={styles.Active}
               to="/"
             >
-              <i className="fas fa-home"></i>Home
+              <i className="fas fa-home"></i>HOME
             </NavLink>
             <NavLink
               className={styles.NavLink}
               activeClassName={styles.Active}
               to="/signin"
             >
-              <i className="fas fa-sign-in-alt"></i>Sign in
+              <i className="fas fa-sign-in-alt"></i>SIGN IN
             </NavLink>
             <NavLink
               to="/signup"
               className={styles.NavLink}
               activeClassName={styles.Active}
             >
-              <i className="fas fa-user-plus"></i>Sign up
+              <i className="fas fa-user-plus"></i>SIGN UP
             </NavLink>
           </Nav>
         </Navbar.Collapse>
